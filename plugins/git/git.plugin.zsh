@@ -67,3 +67,10 @@ alias ggpush='git push origin $(current_branch)'
 compdef ggpush=git
 alias ggpnp='git pull origin $(current_branch) && git push origin $(current_branch)'
 compdef ggpnp=git
+
+# Mine
+alias grh!='git reset HEAD --hard'
+alias gfo='git fetch origin'
+alias grom='git rebase origin/master'
+alias griom='git rebase -i origin/master'
+alias gd='git diff'
